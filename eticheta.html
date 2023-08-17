@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eticheta</title>
+    <style>
+        body {padding: 50px;}
+        #baza {
+            width: 200px;
+            height: 200px;
+            background-image: linear-gradient(#66ff66, #99ff99, #ccffcc, #ffffff, #ffccff, #ff99ff, #ff66ff);
+            padding-bottom: 15px;
+            border-radius: 50px;
+        }
+        #romb {
+            
+            width: 130px;
+            height: 130px;
+            transform: rotate(45deg);
+            margin-left: 33px;
+            text-align: center;
+            line-height: 130px;
+            background-image:radial-gradient(#ffffcc, #ccccff, #ffcccc, #ff99cc, transparent 90%);
+        }
+        .circle {
+            display: inline;
+        }
+        .img {
+            width: 35px;
+            height: 35px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="baza">
+        <div class="circle"><img class="img" style="margin-top:5px; margin-left: 18px;" src="1.jpg" alt=""></div>
+        <div class="circle"><img class="img" style="margin-left: 90px;" src="2.jpg" alt=""></div>
+        <div id="romb"><span style="display: inline-block;transform: rotate(315deg);">PAPER (pastel)</span></div>
+        <div class="circle"><img class="img" style="margin-left: 18px;" src="3.jpg" alt=""></div>
+        <div class="circle"><img class="img" style="margin-left: 90px;" src="4.jpg" alt=""></div>
+    </div>
+</body>
+</html>
